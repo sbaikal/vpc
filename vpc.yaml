@@ -13,7 +13,7 @@ Resources:
       VpcId: !Ref myVPC
       CidrBlock: 10.0.0.0/24
        ##Private Subnet
-  subnetName:
+  subnetPrivate:
     Type: AWS::EC2::Subnet
     Properties:
       AvailabilityZone: us-east-2a
