@@ -19,6 +19,12 @@ Resources:
       AvailabilityZone: us-east-1a
       VpcId:  !Ref myVPC
       CidrBlock: 10.0.1.0/24
+         ## Custom Route Table
+  routeTableName:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref myVPC
+            
          
 
             
