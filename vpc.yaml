@@ -9,14 +9,14 @@ Resources:
   subnetName:
     Type: AWS::EC2::Subnet
     Properties:
-      AvailabilityZone: us-east-1a
+      AvailabilityZone: us-east-2b
       VpcId: !Ref myVPC
       CidrBlock: 10.0.0.0/24
        ##Public Subnet
   subnetName:
     Type: AWS::EC2::Subnet
     Properties:
-      AvailabilityZone: us-east-1a
+      AvailabilityZone: us-east-2c
       VpcId:  !Ref myVPC
       CidrBlock: 10.0.1.0/24
          ## Custom Route Table
