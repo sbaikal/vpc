@@ -6,14 +6,14 @@ Resources:
       CidrBlock: 10.0.0.0/16
       EnableDnsSupport: true
       ## Private Subnet
-  subnetName:
+  subnetNamePublic:
     Type: AWS::EC2::Subnet
     Properties:
       AvailabilityZone: us-east-2a
       VpcId: !Ref myVPC
       CidrBlock: 10.0.0.0/24
        ##Public Subnet
-  subnetName:
+  subnetNamePrivate:
     Type: AWS::EC2::Subnet
     Properties:
       AvailabilityZone: us-east-2a
