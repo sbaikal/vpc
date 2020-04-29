@@ -16,7 +16,7 @@ Resources::
   subnetName:
     Type: AWS::EC2::Subnet
     Properties:
-      AvailabilityZone: us-west-1b
+      AvailabilityZone: us-east-1a
       VpcId:  !Ref myVPC
       CidrBlock: 10.0.1.0/24
          
