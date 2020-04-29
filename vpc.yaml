@@ -12,4 +12,6 @@ Resources::
       AvailabilityZone: us-east-1a
       VpcId: !Ref myVPC
       CidrBlock: 10.0.0.0/24
+       ##Public Subnet
+            
         
